@@ -32,6 +32,7 @@ public class BookController {
      * @param property
      * @return bookList
      */
+    //pull test
     @GetMapping()
     public Page<Book> getAllBooks(@RequestParam(name = "page", defaultValue = "10") int page,
             @RequestParam(name = "size", defaultValue = "10") int size,
